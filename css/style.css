@@ -1,0 +1,190 @@
+@import url(reset.css);
+
+/* Для header шрифт Lora*/
+/* Для content шрифт Beer Money*/
+/* Для class="government-description" шрифт Nautilus Pompilius*/
+/* Для class="administration-divide" шрифт Montserrat*/
+/* Для class="physics-geographic-charscterisrics" шрифт Miltonian+Tattoo*/
+@import url(https://fonts.googleapis.com/css?family=Miltonian+Tattoo:regular);
+
+
+@import url(https://fonts.googleapis.com/css?family=Lora:300,400,500,700&display=swap);
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,regular,500,700,900&display=swap);
+
+@font-face {
+	font-family: 'Beer money';
+	src: url('../fonts/beermoney.woff2') format('woff2'), url('../fonts/beermoney.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Nautilus Pompilius';
+	src: url('../fonts/NautilusPompilius.woff2') format('woff2'), url('../fonts/NautilusPompilius.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+header{
+	font-family: "Lora", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: justify;
+	color: blue;
+	;
+}
+.header p{
+	text-indent: 20px;
+}
+h1{
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center;
+   text-decoration: underline;
+	text-shadow: 2px 2px 10px blue;
+	text-transform: uppercase;
+	letter-spacing: 30px;
+	line-height: 2;
+}
+
+.content{
+	font-family: 'Beer money', 'Times New Roman', serif;
+	font-size: 18px;
+	font-weight: 300;
+	text-align: left;
+	color: brown;
+}
+#content{
+	font-size: 25px;
+	font-weight: 700;
+	text-align: center;
+	color: brown;
+	text-decoration: underline;
+	text-shadow: 2px 2px 10px brown;
+	letter-spacing: 10px;
+	line-height: 1.5;
+}
+
+.government-description h2{
+	font-family: 'Nautilus Pompilius', 'Times New Roman', serif;
+	font-style: oblique;
+	font-size: 25px;
+	font-weight: 700;
+	text-align: center;
+	color: purple;
+	text-shadow: 2px 2px 10px purple;
+	letter-spacing: 10px;
+	line-height: 2;
+}
+.government-description h3 {
+	font-family: 'Nautilus Pompilius', 'Times New Roman', serif;
+	font-size: 22px;
+	font-style: italic;
+	font-weight: 300;
+	text-align: center;
+	color: purple;
+	text-decoration: underline;
+	text-shadow: 2px 2px 10px purple;
+	word-spacing: 6px;
+	letter-spacing: 5px;
+	line-height: 2;
+}
+.government-description p{
+	font-family: 'Nautilus Pompilius', 'Times New Roman', serif;
+	font-size: 18px;
+	font-weight: 300;
+	text-align: justify;
+	color: purple;
+	letter-spacing: 2px;
+	text-indent: 40px;
+}
+
+.administration-divide h2{
+	font-family: 'Montserrat', 'Times New Roman', serif;
+	font-size: 25px;
+	font-style: oblique;
+	font-weight: 700;
+	text-align: center;
+	color: green;
+	text-shadow: 2px 2px 10px green;
+	letter-spacing: 10px;
+	line-height: 2;
+}
+.administration-divide p{
+	font-family: 'Montserrat', 'Times New Roman', serif;
+	font-size: 18px;
+	font-weight: 300;
+	text-align: justify;
+	color: green;
+	letter-spacing: 2px;
+	text-indent: 40px;
+}
+
+.physics-geographic-charscterisrics h2{
+	font-family: 'Roboto', 'Times New Roman', serif;
+	font-size: 25px;
+	font-style: oblique;
+	font-weight: 700;
+	text-align: center;
+	color: yellow;
+	text-shadow: 2px 2px 10px black;
+	letter-spacing: 10px;
+	line-height: 2;
+}
+.physics-geographic-charscterisrics h3 {
+	font-family: 'Roboto', 'Times New Roman', serif;
+	font-size: 22px;
+	font-style: italic;
+	font-weight: 300;
+	text-align: center;
+	color: yellow;
+	text-decoration: underline;
+	text-shadow: 2px 2px 10px black;
+	letter-spacing: 5px;
+	word-spacing: 6px;
+	line-height: 2;
+}
+.physics-geographic-charscterisrics p {
+	font-family: 'Roboto', 'Times New Roman', serif;
+	font-size: 18px;
+	font-weight: 300;
+	text-align: justify;
+	color: greenyellow;
+	letter-spacing: 2px;
+	text-indent: 40px;
+}
+
+.population h2{
+	font-family: 'Unbounded', 'Times New Roman', serif;
+	font-size: 25px;
+	font-style: oblique;
+	font-weight: 700;
+	text-align: center;
+	color: red;
+	text-shadow: 2px 2px 10px red;
+	letter-spacing: 10px;
+	line-height: 2;
+}
+.population h3 {
+	font-family: 'Unbounded', 'Times New Roman', serif;
+	font-size: 22px;
+	font-style: italic;
+	font-weight: 300;
+	text-align: center;
+	color: red;
+	text-decoration: underline;
+	text-shadow: 2px 2px 10px red;
+	word-spacing: 6px;
+	letter-spacing: 5px;
+	line-height: 2;
+}
+.population p {
+	font-family: 'Unbounded', 'Times New Roman', serif;
+	font-size: 18px;
+	font-weight: 300;
+	text-align: justify;
+	letter-spacing: 2px;
+	color: red;
+	text-indent: 40px;
+}
